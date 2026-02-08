@@ -48,7 +48,7 @@ Because of this, the BGR mathematically allows more than one DC operating point.
 ### Zero-Current State (Undesired)
 - All branch currents = 0
 - MOSFETs are OFF
-- BJTs are OFF (V_BE ≈ 0)
+- BJTs are OFF,Vbe = 0
 - Output reference voltage = 0 V
   
 This zero-current condition satisfies KCL and KVL, so it is a valid equilibrium point of the circuit.
