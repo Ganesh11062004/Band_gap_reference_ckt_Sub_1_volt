@@ -54,3 +54,8 @@ Because of this, the BGR mathematically allows more than one DC operating point.
 This zero-current condition satisfies KCL and KVL, so it is a valid equilibrium point of the circuit.
 
 Due to the self-biased nature of bandgap reference circuits, an undesired zero-current operating point exists in which all transistors remain off and no reference voltage is generated. At power-up, the circuit may settle into this equilibrium and fail to start. A startup circuit is therefore employed to inject a small temporary bias current during power-up, forcing the circuit away from the zero-current state and enabling the establishment of the intended PTAT and CTAT currents. Once normal operation is achieved, the startup circuit automatically disables itself, ensuring no impact on steady-state performance.
+
+## Acknowledgment
+### [Checkout to understand the design procedure of BGR](https://www.youtube.com/playlist?list=PLK2eyR1C9gjp5tk5j7eTYU_Th4IL_H83T)
+
+### [Checkout the below link to understand the design of Sub-1 Volt BGR](https://www.youtube.com/playlist?list=PLyqSpQzTE6M9UpgVUKY3QKnVVlcqFrMM1)
